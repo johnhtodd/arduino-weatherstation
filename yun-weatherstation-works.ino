@@ -248,7 +248,7 @@ void setup() {
   Serial.begin(9600);
 #endif
   Bridge.begin();
-  server.listenOnLocalhost();
+/*  server.listenOnLocalhost(); */
   server.begin();
   Serial.println(F("Starting main loop now"));
 
