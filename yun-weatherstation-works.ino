@@ -6,7 +6,7 @@
 /* direction indicators, which are simply neon NE-2 
 /* lamps in a compass rose. These are powered by 
 /* household current gated through the relays.  The 
-/* windspeed indicator is wired through a 10k(?) 
+/* windspeed indicator is wired through a 41k(?) 
 /* resistor to pin 10, and then the analog PWM function
 /* of the Arduino pulses quickly enough to look like
 /* a steady current.  I put the output of the resistor
